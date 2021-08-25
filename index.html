@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fa/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Gitpod Website</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center p-3">
+                <div class="col-2">
+                    <a href="#"><img src="img/logo.png" alt="Gitpod logo"></a>
+                    <a href="#"><span class="site-name">Gitpod</span></a>
+                </div>
+                <div class="col-5">
+                    <ul class="navbar-items">
+                        <li class="navbar-item"><a href="#" class="navbar-item__link">Features</a></li>
+                        <li class="navbar-item"><a href="#" class="navbar-item__link">Pricing</a></li>
+                        <li class="navbar-item"><a href="#" class="navbar-item__link">Blog</a></li>
+                        <li class="navbar-item"><a href="#" class="navbar-item__link">Docs</a></li>
+                        <li class="navbar-item"><a href="#" class="navbar-item__link">Changelog</a></li>
+                        <li class="navbar-item"><a href="#" class="navbar-item__link">We're hiring</a></li>
+                    </ul>
+                </div>
+                <div class="col-1 text-right">
+                    <a href="#" class="button button-dark">Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-section">
+        <div class="gitpod-container">
+            <div class="row py-5">
+                <div class="col-6 main-section__text">
+                    <h1 class="main-section__title">Always <br> Ready to Code.</h1>
+                    <p class="main-section__subtitle">Spin up fresh, automated dev environments <br> for each task, in the cloud, in seconds.</p>
+                </div>
+                <div class="col-6">
+                    <img src="img/camputer-room.png" alt="Camputer room image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project-section">
+        <div class="gitpod-container">
+            <div class="row justify-content-center">
+                <div class="col-11 text-center">
+                    <h2 class="project-select">
+                        Select project, <br>
+                        <span class="project-delete">check dependencies, checkout branch, view <br>
+                            readme.txt, install tools, run build, run test,
+                        </span> <br>
+                        start coding.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="main-environment">
+        <div class="gitpod-container">
+            <div class="row">
+                <div class="col-7">
+                    <div class="row align-content-around h-100">
+                        <div class="col-12">
+                            <h3 class="main-environment__title">Think CI/CD for dev environments</h3>
+                            <p class="main-environment__subtitle">
+                                We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="button button-warning">More on prebuilds</a>
+                            <a href="#" class="button button-danger">Documentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <img src="img/environment-info.png" alt="Environment info image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="secure-design">
+        <div class="gitpod-container">
+            <h2 class="secure-design__title">Remote-first. Secure by design.</h2>
+            <div>
+                <img src="img/secure-design.jpg" alt="Secure design image">
+            </div>
+            <p class="secure-design__subtitle">You no longer need an over-powered laptop to code, Gitpod works just as <br> smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes <br> all source code and never stores it on insecure machines and networks.</p>
+            <a href="#" class="button button-light">
+                <img src="img/google.png" alt="Google logo">
+                <span class="icon-text">Chrome Extension</span>
+            </a>
+            <a href="#" class="button button-light">
+                <img src="./img/firefox.png" alt="Firefox logo">
+                <span class="icon-text">Firefox Extension</span>
+            </a>
+        </div>
+    </section>
+    <section class="gitpod-developers">
+        <div class="gitpod-container">
+            <h2 class="developers-title">Used by 400,000+ developers.</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="card-title">
+                                GitPod is incredibly cool.
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <p class="card-text">
+                                In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="img/developer1.png" alt="Developer image" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-9 pl-0">
+                                    <h3 class="developer-name">
+                                        Ben Halpern
+                                    </h3>
+                                    <p class="developer-info">
+                                        Creator and Co-founder <span class="developer-telegram">@forem</span> and <span class="developer-telegram">@ThePracticalDev</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="card-title">
+                                Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked.
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <p class="card-text">
+                                Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="img/developer2.png" alt="Developer image" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-9 pl-0">
+                                    <h3 class="developer-name">
+                                        Michael Friedrich
+                                    </h3>
+                                    <p class="developer-info">
+                                        Developer Evangelist <span class="developer-telegram">@GitLab</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="card-text">
+                                Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="img/developer3.png" alt="Developer image" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-9 pl-0">
+                                    <h3 class="developer-name">
+                                        Ben Halpern
+                                    </h3>
+                                    <p class="developer-info">
+                                        Creator and Co-founder <span class="developer-telegram">@forem</span> and <span class="developer-telegram">@ThePracticalDev</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="card">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="card-title">
+                                GitPod is incredibly cool.
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <p class="card-text">
+                                In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="img/developer4.png" alt="Developer image" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-9 pl-0">
+                                    <h3 class="developer-name">
+                                        Ben Halpern
+                                    </h3>
+                                    <p class="developer-info">
+                                        Creator and Co-founder <span class="developer-telegram">@forem</span> and <span class="developer-telegram">@ThePracticalDev</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="logos-section">
+        <div class="gitpod-container">
+            <div class="row">
+                <div class="col-10  offset-1 d-flex align-items-center justify-content-between">
+                    <div class="logo-box">
+                        <img src="img/logo1.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo2.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo3.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo4.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo5.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo6.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo7.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-8  offset-2 d-flex align-items-center justify-content-between">
+                    <div class="logo-box">
+                        <img src="img/logo8.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo9.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo10.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo11.png" alt="Logo">
+                    </div>
+                    <div class="logo-box">
+                        <img src="img/logo12.png" alt="Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="programmer-languages">
+        <div class="gitpod-container">
+            <h2 class="programmer-title">Get started now</h2>
+            <div class="programmer-content">
+                <div class="programmer-content1">
+                    <h4 class="programmer-content1__title">Connect Git repository</h4>
+                    <p class="programmer-content1__text">
+                        Select a Git provider to start with an existing project from any Git context.
+                    </p>
+                    <div class="programmer-content1__link">
+                        <a href="#" class="btn">
+                            <img src="img/content_img1.png" alt="Content image">
+                            Continue with GitLab
+                        </a>
+                    </div>
+                    <div class="programmer-content1__link">
+                        <a href="#" class="btn">
+                            <img src="img/content_img2.png" alt="Content image">
+                            Continue with GitHub
+                        </a>
+                    </div>
+                    <div class="programmer-content1__link">
+                        <a href="#" class="btn">
+                            <img src="img/content_img3.png" alt="Content image">
+                            Continue with Bitbucket
+                        </a>
+                    </div>
+                    <p class="programmer-content1__subtitle">
+                        Or prefix any GitLab, GitHub or Bitbucket URL with
+                    </p>
+                    <a href="#" class="btn btn-orange">gitpod.io/#</a>
+                </div>
+                <div class="programmer-content1 programmer-content2">
+                    <h4 class="programmer-content1__title">Launch an example workspace</h4>
+                    <p class="programmer-content1__text">
+                        Dive into one of our example workspaces
+                    </p>
+                    <div class="programmer-content2__item">
+                        <div class="programmer-content2__item-left">
+                            <img src="img/node__js.png" alt="Programmer langauge logo">
+                            <span>Node or TypeScript</span>
+                        </div>
+                        <div class="programmer-content2__item-right">
+                            <a href="#" class="btn btn-black">Launch workspace</a>
+                        </div>
+                    </div>
+                    <div class="programmer-content2__item">
+                        <div class="programmer-content2__item-left">
+                            <img src="img/python.png" alt="Programmer langauge logo">
+                            <span>Python</span>
+                        </div>
+                        <div class="programmer-content2__item-right">
+                            <a href="#" class="btn btn-black">Launch workspace</a>
+                        </div>
+                    </div>
+                    <div class="programmer-content2__item">
+                        <div class="programmer-content2__item-left">
+                            <img src="img/go.png" alt="Programmer langauge logo">
+                            <span>Go</span>
+                        </div>
+                        <div class="programmer-content2__item-right">
+                            <a href="#" class="btn btn-black">Launch workspace</a>
+                        </div>
+                    </div>
+                    <div class="programmer-content2__item">
+                        <div class="programmer-content2__item-left">
+                            <img src="img/rust.png" alt="Programmer langauge logo">
+                            <span>Rust</span>
+                        </div>
+                        <div class="programmer-content2__item-right">
+                            <a href="#" class="btn btn-black">Launch workspace</a>
+                        </div>
+                    </div>
+                    <div class="programmer-content2__item">
+                        <div class="programmer-content2__item-left">
+                            <img src="img/java.png" alt="Programmer langauge logo">
+                            <span>Java</span>
+                        </div>
+                        <div class="programmer-content2__item-right">
+                            <a href="#" class="btn btn-black">Launch workspace</a>
+                        </div>
+                    </div>
+                    <div class="programmer-content2__item">
+                        <div class="programmer-content2__item-left">
+                            <img src="img/svelte.png" alt="Programmer langauge logo">
+                            <span>Svelte</span>
+                        </div>
+                        <div class="programmer-content2__item-right">
+                            <a href="#" class="btn btn-black">Launch workspace</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info-section">
+        <div class="gitpod-container">
+            <div class="row">
+                <div class="col-2 offset-2">
+                    <h5 class="list-title">Gitpod</h5>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Changelog</a>
+                        </li>
+                        <li>
+                            <a href="#">Self-Hosted</a>
+                        </li>
+                        <li>
+                            <a href="#">Gitpod vs GitHub</a>
+                        </li>
+                        <li>
+                            <a href="#">Codespaces</a>
+                        </li>
+                        <li>
+                            <a href="#">Status</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h5 class="list-title">Developer</h5>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Getting started</a>
+                        </li>
+                        <li>
+                            <a href="#">Screencasts</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="#">Report a bug</a>
+                        </li>
+                        <li>
+                            <a href="#">Community</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h5 class="list-title">Company</h5>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Media Kit</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h5 class="list-title">Legal</h5>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Imprint</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-8 offset-2 border-top mt-5 py-4">
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <a href="#">
+                                <img src="img/logo.png" alt="Logo">
+                            </a>
+                            <span>Copyright &copy; 2021 Gitpod</span>
+                        </div>
+                        <div class="col-3 text-right">
+                            <a href="#">
+                                <img src="img/info_img1.png" alt="Info image">
+                            </a>
+                            <a href="#">
+                                <img src="img/info_img2.png" alt="Info image">
+                            </a>
+                            <a href="#">
+                                <img src="img/info_img3.png" alt="Info image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="row align-items-center">
+            <div class="col-8">
+                <p class="footer-text">
+                    This website uses cookies to enhance the user experience. Read our privacy policy for more info.
+                </p>
+            </div>
+            <div class="col-2 offset-2">
+                <a href="#" class="btn btn-white d-block">Accept Cookies</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
